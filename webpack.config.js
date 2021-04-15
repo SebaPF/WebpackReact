@@ -62,7 +62,7 @@ module.exports = {
     },
     optimization: {
         minimize: true,
-        minizer: [
+        minimizer: [
             new CssMinimizerWebpackPlugin(),
             new TerserWebpackPlugin(),
         ]
